@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Finddocky"
+    }
+  },
+  "defaultProject": "Finddocky",
+  "cli": {
+    "analytics": "995200c0-9a7e-4512-8bf7-c36982530c64"
+  }
 }
