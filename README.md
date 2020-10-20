@@ -1,6 +1,6 @@
 # Finddocky
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0. This is an app to aid people find thier lost documents.
 
 ## Development server
 
@@ -23,5 +23,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
+
+## Contributing
+We are open to contributions. click on the link below to find the contributing guildlines
+[Contributing.md](https://github.com/yunweneric/FindDocky/blob/master/contibuting.md)
+
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
