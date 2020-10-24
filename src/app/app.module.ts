@@ -12,6 +12,7 @@ import { SignupComponent } from './users/signup/signup.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { RecentlyfoundComponent } from './recentlyfound/recentlyfound.component';
+import { RecoverpasswordComponent } from './recoverpassword/recoverpassword.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { RecentlyfoundComponent } from './recentlyfound/recentlyfound.component'
     HeaderComponent,
     FooterComponent,
     PagenotfoundComponent,
-    RecentlyfoundComponent
+    RecentlyfoundComponent,
+    RecoverpasswordComponent
   ],
   imports: [
     BrowserModule,
