@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SignupComponent } from './users/signup/signup.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { RecentlyfoundComponent } from './recentlyfound/recentlyfound.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    RecentlyfoundComponent
   ],
   imports: [
     BrowserModule,
