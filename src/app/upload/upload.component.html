@@ -1,0 +1,68 @@
+<div class="global-container">
+    <div class="card login-form">
+        <div class="card-body">
+            <h3 class="text-center card-title">Found a missing document? Fillout this form to upload the document</h3>
+            <div class="card-text">
+                <!-- div class="alert alert-danger alert-dismissible fade show" role="alert">Incorrect username or password.</div> -->
+                <form>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- to error: add class "has-danger" -->
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name and Surname</label>
+                                <input type="text" class="form-control form-control-sm" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Date of birth</label>
+                                <input type="date" class="form-control form-control-sm" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group">
+                                <label for="fathersname">Father's Name</label>
+                                <input type="Text" class="form-control form-control-sm" id="fathersname">
+                            </div>
+                            <div class="form-group">
+                                <label for="mothersname">Mother's Name</label>
+                                <input type="Text" class="form-control form-control-sm" id="mothersname">
+                            </div>
+                            <div class="form-group">
+                                <label for="occupation">Occupation</label>
+                                <input type="Text" class="form-control form-control-sm" id="occupation">
+                            </div>
+                            <div class="sign-up">
+                                <!-- Don't have an account? <a routerLink='/signup'>Create One</a> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="Text" class="form-control form-control-sm" id="address">
+                            </div>
+                            <div class="form-group">
+                                <label for="height">Height</label>
+                                <input type="number" class="form-control form-control-sm" id="height">
+                            </div>
+                            <div class="form-group">
+                                <label for="issuedate">Date of Issue</label>
+                                <input type="date" class="form-control form-control-sm" id="issuedate">
+                            </div>
+                            <div class="form-group">
+                                <label for="front">Front image</label>
+                                <input type="file" class="form-control form-control-sm" id="front">
+                            </div>
+                            <div class="form-group">
+                                <label for="back">Back Image</label>
+                                <!-- <input type="file" class="form-control form-control-sm" id="back"> -->
+                                <input type="file" accept="image/*" capture="capture">
+
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Upload Now!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -13,6 +13,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { RecentlyfoundComponent } from './recentlyfound/recentlyfound.component';
 import { PwdrecoveryComponent } from './users/pwdrecovery/pwdrecovery.component';
+import { UploadComponent } from './upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PwdrecoveryComponent } from './users/pwdrecovery/pwdrecovery.component'
     FooterComponent,
     PagenotfoundComponent,
     RecentlyfoundComponent,
-    // PwdrecoveryComponent
+    UploadComponent,
+    PwdrecoveryComponent
   ],
   imports: [
     BrowserModule,

@@ -4,12 +4,12 @@ body {
 }
 
 .global-container {
-  height: 90vh;
+  /* height: 90vh; */
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 form {
@@ -28,7 +28,7 @@ form {
 }
 
 .login-form {
-  width: 330px;
+  width: 530px;
   margin: 20px;
 }
 
