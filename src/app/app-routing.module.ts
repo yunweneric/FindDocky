@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { pathToFileURL } from 'url';
 import { AppComponent } from './app.component';
 import { DocumentsDetailsComponent } from './Documents/documents-details/documents-details.component';
+import { DocumentsComponent } from './documents/documents.component';
 import { HomeComponent } from './home/home.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { UploadComponent } from './upload/upload.component';
@@ -13,7 +14,7 @@ import { SignupComponent } from './users/signup/signup.component';
 const routes: Routes = [
   {path:'', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: 'details', component: DocumentsDetailsComponent},
+  {path: 'details', component: DocumentsComponent},
   {path: 'upload', component: UploadComponent},
   {path: 'recover', component: PwdrecoveryComponent},
   {path: 'login', component: LoginComponent},
