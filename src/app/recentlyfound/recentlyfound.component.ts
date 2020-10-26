@@ -11,5 +11,4 @@ export class RecentlyfoundComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
