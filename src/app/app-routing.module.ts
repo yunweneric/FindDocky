@@ -14,7 +14,7 @@ import { SignupComponent } from './users/signup/signup.component';
 const routes: Routes = [
   {path:'', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: 'details', component: DocumentsComponent},
+  {path: 'details', component: DocumentsDetailsComponent},
   {path: 'upload', component: UploadComponent},
   {path: 'recover', component: PwdrecoveryComponent},
   {path: 'login', component: LoginComponent},

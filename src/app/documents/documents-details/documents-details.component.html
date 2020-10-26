@@ -1,82 +1,153 @@
-<div class="container">
-    <div class="container">
-        <div class="profile-header">
-            <div class="profile-img">
-                <img src="./bg.jpg" width="200" alt="Profile Image">
-            </div>
-            <div class="profile-nav-info">
-                <h3 class="user-name">Bright Code</h3>
-                <div class="address">
-                    <!-- <p id="state" class="state">New York,</p>
-                    <span id="country" class="country">USA.</span> -->
-                </div>
-    
-            </div>
-            <div class="profile-option">
-                <div class="notification">
-                    <i class="fa fa-bell"></i>
-                    <span class="alert-message">3</span>
-                </div>
-            </div>
-        </div>
-    
-        <div class="main-bd">
-            <div class="left-side">
-                <div class="profile-side">
-                    <p class="mobile-no"><i class="fa fa-phone"></i> +23470xxxxx700</p>
-                    <p class="user-mail"><i class="fa fa-envelope"></i> Brightisaac80@gmail.com</p>
-                    <div class="user-bio">
-                        <h3>Bio</h3>
-                        <p class="bio">
-                            Lorem ipsum dolor sit amet, hello how consectetur adipisicing elit. Sint consectetur provident
-                            magni yohoho consequuntur, voluptatibus ghdfff exercitationem at quis similique. Optio, amet!
-                        </p>
-                    </div>
-                    <div class="profile-btn">
-                        <button class="chatbtn" id="chatBtn"><i class="fa fa-comment"></i> Chat</button>
-                        <button class="createbtn" id="Create-post"><i class="fa fa-plus"></i> Create</button>
-                    </div>
-                    <div class="user-rating">
-                        <h3 class="rating">4.5</h3>
-                        <div class="rate">
-                            <div class="star-outer">
-                                <div class="star-inner">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            <span class="no-of-user-rate"><span>123</span>&nbsp;&nbsp;reviews</span>
+<div class="container emp-profile">
+    <form method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-img">
+                    <img src="https://cardimpulz.com/wp-content/uploads/2020/01/CardImpulz-ID-Card-600x400.jpg"
+                        alt="" />
+                    <!-- <div class="file btn btn-lg btn-primary">
+                        Change Photo
+                        <input type="file" name="file"/>
+                    </div> -->
+                    <div class="collect">
+                        <div class="profile-work text-center">
+                            <button class=" btn btn-primary">Collect now</button>
                         </div>
-    
                     </div>
                 </div>
-    
             </div>
-            <div class="right-side">
-    
-                <!-- <div class="nav">
-                    <ul>
-                        <li onclick="tabs(0)" class="user-post active">Posts</li>
-                        <li onclick="tabs(1)" class="user-review">Reviews</li>
-                        <li onclick="tabs(2)" class="user-setting"> Settings</li>
+            <div class="col-md-6">
+                <div class="profile-head">
+                    <h5>
+                        Kshiti Ghelani
+                    </h5>
+                    <h6>
+                        Web Developer and Designer
+                    </h6>
+                    <br><br>
+                    <!-- <p class="proile-rating">RANKINGS : <span>8/10</span></p> -->
+                    <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">More</a>
+                        </li>
                     </ul>
-                </div> -->
-                <div class="profile-body">
-                    <div class="profile-posts tab">
-                        <h1>Your Post</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quia sunt itaque ut libero
-                            cupiditate ullam qui velit laborum placeat doloribus, non tempore nisi ratione error rem minima
-                            ducimus. Accusamus adipisci quasi at itaque repellat sed
-                            magni eius magnam repellendus. Quidem inventore repudiandae sunt odit. Aliquid facilis fugiat
-                            earum ex officia eveniet, nisi, similique ad ullam repudiandae molestias aspernatur qui autem,
-                            nam? Cupiditate ut quasi iste, eos perspiciatis maiores
-                            molestiae.</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <!-- <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="profile-work text-center">
+                    <!-- <button class=" btn btn-primary">Collect now</button> -->
+                </div>
+            </div>
+            <div class="col-md-8 ">
+                <div class="tab-content profile-tab" id="myTabContent">
+                    <div class="tab-pane fade show active right-side" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Name</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Bochu Yunwen Eric</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Gender</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Male</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Date of birth</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>26 January 1988</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Height</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>1.54M</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Father's Name</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Ngwa Rhenalds</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Mother's Name</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Ning Eveline</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Occupation</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Farmer</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Address</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Bamenda, Bali</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Date of Issue</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>01 October 2020</p>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Missing Location</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Douala, Bonaberi</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Date Found</label>
+                            </div>
+                            <div class="col-md-6">
+                                <p>12 October 2020</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </div>
