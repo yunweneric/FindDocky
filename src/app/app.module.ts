@@ -11,9 +11,11 @@ import { FooterComponent } from './footer/footer.component';
 import { SignupComponent } from './users/signup/signup.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { RecentlyfoundComponent } from './recentlyfound/recentlyfound.component';
+import { RecentlyfoundComponent } from './documents/recentlyfound/recentlyfound.component';
 import { PwdrecoveryComponent } from './users/pwdrecovery/pwdrecovery.component';
 import { UploadComponent } from './upload/upload.component';
+import { DocumentsComponent } from './documents/documents.component';
+import { DocumentsDetailsComponent } from './Documents/documents-details/documents-details.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { UploadComponent } from './upload/upload.component';
     PagenotfoundComponent,
     RecentlyfoundComponent,
     UploadComponent,
-    PwdrecoveryComponent
+    PwdrecoveryComponent,
+    DocumentsComponent,
+    DocumentsDetailsComponent
   ],
   imports: [
     BrowserModule,

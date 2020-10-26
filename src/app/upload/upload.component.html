@@ -29,16 +29,17 @@
                                 <label for="occupation">Occupation</label>
                                 <input type="Text" class="form-control form-control-sm" id="occupation">
                             </div>
+
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="Text" class="form-control form-control-sm" id="address">
+                            </div>
+                           
                             <div class="sign-up">
                                 <!-- Don't have an account? <a routerLink='/signup'>Create One</a> -->
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            
-                            <div class="form-group">
-                                <label for="address">Address</label>
-                                <input type="Text" class="form-control form-control-sm" id="address">
-                            </div>
                             <div class="form-group">
                                 <label for="height">Height</label>
                                 <input type="number" class="form-control form-control-sm" id="height">
@@ -48,15 +49,25 @@
                                 <input type="date" class="form-control form-control-sm" id="issuedate">
                             </div>
                             <div class="form-group">
-                                <label for="front">Front image</label>
+                                <label for="back">Missing Location</label>
+                                <input type="text" class="form-control form-control-sm" id="back">
+                                <!-- <input type="file" accept="image/*" capture="capture"> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="back">Date Found</label>
+                                <input type="date" class="form-control form-control-sm" id="back">
+                                <!-- <input type="file" accept="image/*" capture="capture"> -->
+                            </div>
+                            <div class="form-group">
+                                <label for="front">Document front view</label>
                                 <input type="file" class="form-control form-control-sm" id="front">
                             </div>
                             <div class="form-group">
-                                <label for="back">Back Image</label>
+                                <label for="back">Document back View</label>
                                 <input type="file" class="form-control form-control-sm" id="back">
                                 <!-- <input type="file" accept="image/*" capture="capture"> -->
-
                             </div>
+                         
 
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">Upload Now!</button>
