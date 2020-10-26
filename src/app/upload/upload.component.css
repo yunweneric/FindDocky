@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 form {
@@ -28,7 +28,7 @@ form {
 }
 
 .login-form {
-  width: 530px;
+  width: 50%;
   margin: 20px;
 }
 
